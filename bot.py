@@ -1,6 +1,8 @@
 import os
 import json
 import logging
+import threading
+from http.server import HTTPServer, BaseHTTPRequestHandler
 import google.generativeai as genai
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, CallbackQueryHandler, MessageHandler, filters
@@ -10,7 +12,24 @@ logging.basicConfig(
     level=logging.INFO
 )
 
-# Fetch credentials securely from environment variables using variable names
+# Lightweight web server to satisfy Render's port binding health checks
+class HealthCheckHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.end_headers()
+        self.wfile.write(b"Bot is live")
+
+    def log_message(self, format, *args):
+        return  # Suppress repetitive HTTP health check logs
+
+def start_dummy_server():
+    port = int(os.environ.get("PORT", 10000))
+    server = HTTPServer(("0.0.0.0", port), HealthCheckHandler)
+    server.serve_forever()
+
+threading.Thread(target=start_dummy_server, daemon=True).start()
+
+# Fetch credentials securely from environment variables
 TOKEN = os.getenv("TELEGRAM_TOKEN")
 API_KEY = os.getenv("GEMINI_API_KEY")
 
