@@ -1,0 +1,50 @@
+{
+  "C31": {
+    "name": "AI & Data Engineering",
+    "cop": "6 - 12",
+    "description": "Focuses on artificial intelligence, machine learning, and data analytics.",
+    "careers": ["AI Engineer", "Data Engineer", "Machine Learning Specialist"]
+  },
+  "C26": {
+    "name": "Aerospace Engineering",
+    "cop": "7 - 14",
+    "description": "Covers aircraft design, maintenance, avionics systems, and flight operations.",
+    "careers": ["Aerospace Engineer", "Avionics Specialist", "Drone Specialist"]
+  },
+  "C71": {
+    "name": "Biomedical Engineering",
+    "cop": "7 - 12",
+    "description": "Combines engineering principles with medical sciences to develop healthcare technologies.",
+    "careers": ["Biomedical Engineer", "Medical Device Specialist"]
+  },
+  "C75": {
+    "name": "Cloud Engineering",
+    "cop": "9 - 21",
+    "description": "Focuses on cloud infrastructure, DevOps, virtualization, and cloud security.",
+    "careers": ["Cloud Architect", "DevOps Engineer", "Systems Administrator"]
+  },
+  "C41": {
+    "name": "Sustainability in Engineering with Business",
+    "cop": "10 - 23",
+    "description": "Bridges engineering expertise with business operations and sustainable technology.",
+    "careers": ["Sustainability Engineer", "Product Engineer", "Supply Chain Executive"]
+  },
+  "C62": {
+    "name": "Advanced & Digital Manufacturing",
+    "cop": "10 - 26",
+    "description": "Covers smart factory technologies, 3D printing, and digital production management.",
+    "careers": ["Manufacturing Engineer", "Process Automation Specialist"]
+  },
+  "C87": {
+    "name": "AI Robotics",
+    "cop": "11 - 26",
+    "description": "Integrates robotics hardware, autonomous systems, and AI control software.",
+    "careers": ["Robotics Engineer", "Automation Engineer"]
+  },
+  "C42": {
+    "name": "Common Engineering Programme",
+    "cop": "10 - 23",
+    "description": "Allows Year 1 students to explore fundamental engineering modules before choosing a diploma.",
+    "careers": ["Exploratory pathway into all SEG diplomas"]
+  }
+}
