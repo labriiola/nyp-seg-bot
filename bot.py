@@ -38,9 +38,9 @@ if not TOKEN:
 if not API_KEY:
     raise ValueError("GEMINI_API_KEY environment variable is missing in Render settings!")
 
-# Configure Gemini AI using gemini-1.5-flash for 1,500 free daily requests
+# Configure Gemini AI using gemini-1.5-flash-latest to resolve model resolution errors
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-1.5-flash-latest")
 
 def load_courses():
     with open('seg_courses.json', 'r') as file:
