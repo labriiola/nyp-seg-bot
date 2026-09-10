@@ -33,9 +33,14 @@ threading.Thread(target=start_dummy_server, daemon=True).start()
 TOKEN = os.getenv("TELEGRAM_TOKEN")
 API_KEY = os.getenv("GEMINI_API_KEY")
 
-# Configure Gemini AI
+if not TOKEN:
+    raise ValueError("TELEGRAM_TOKEN environment variable is missing in Render settings!")
+if not API_KEY:
+    raise ValueError("GEMINI_API_KEY environment variable is missing in Render settings!")
+
+# Configure Gemini AI using gemini-1.5-flash for 1,500 free daily requests
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel("gemini-3.6-flash")
+model = genai.GenerativeModel("gemini-1.5-flash")
 
 def load_courses():
     with open('seg_courses.json', 'r') as file:
@@ -142,7 +147,17 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         
     except Exception as e:
         logging.error(f"LLM Error: {e}")
-        await update.message.reply_text(f"Error calling Gemini AI: {e}", reply_markup=reply_markup)
+        error_str = str(e)
+        if "429" in error_str or "quota" in error_str.lower():
+            await update.message.reply_text(
+                "🌸 I'm receiving a lot of questions right now! Please wait about 1 minute and try again.",
+                reply_markup=reply_markup
+            )
+        else:
+            await update.message.reply_text(
+                "⚠️ Something went wrong on my end. Please try again in a moment.",
+                reply_markup=reply_markup
+            )
 
 if __name__ == '__main__':
     app = ApplicationBuilder().token(TOKEN).build()
