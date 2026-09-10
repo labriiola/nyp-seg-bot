@@ -40,7 +40,7 @@ if not API_KEY:
 
 # Configure Gemini AI using gemini-1.5-flash-latest to resolve model resolution errors
 genai.configure(api_key=API_KEY)
-model = genai.GenerativeModel("gemini-1.5-flash-latest")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 def load_courses():
     with open('seg_courses.json', 'r') as file:
