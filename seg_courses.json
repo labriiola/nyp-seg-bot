@@ -35,7 +35,7 @@
     "description": "Combines software engineering with hardware systems, microcontrollers, IoT devices, and cyber-physical security.",
     "careers": ["Embedded Systems Engineer", "IoT Developer", "Software Engineer", "Systems Integrator"],
     "modules_yr2": ["Embedded Linux Systems", "Microcontroller Architecture", "Network & Internet Security", "Object-Oriented Programming"],
-    "source_url": "https://www.nyp.edu.sg/student/study/schools/engineering/diploma-computer-engineering"
+    "source_url": "https://www.nyp.edu.sg/student/study/schools/engineering/diploma-electronic-computer-engineering"
   },
   "C42": {
     "name": "Diploma in Engineering with Business",
@@ -51,7 +51,7 @@
     "description": "Focuses on aerospace electronics (avionics), air traffic management, unmanned aerial vehicles (drones), and airport operations.",
     "careers": ["Avionics Specialist", "Air Traffic Management Officer", "UAS Operations Executive", "Airport Operations Officer"],
     "modules_yr2": ["Avionics Systems & Testing", "Air Traffic Control Systems", "Drone Operations & Technology", "Aviation Safety & Regulations"],
-    "source_url": "https://www.nyp.edu.sg/student/study/schools/engineering/diploma-aerospace-systems-management"
+    "source_url": "https://www.nyp.edu.sg/student/study/schools/engineering/diploma-aerospace-engineering"
   },
   "C62": {
     "name": "Diploma in Biomedical Engineering",
