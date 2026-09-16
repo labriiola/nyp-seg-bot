@@ -8,25 +8,72 @@
   "C31": {
     "name": "Diploma in AI & Data Engineering",
     "cop": "6 - 12",
-    "description": "Focuses on artificial intelligence, machine learning, big data analytics, and software solutions.",
-    "careers": ["AI Engineer", "Data Engineer", "Machine Learning Specialist"],
+    "description": "Focuses on artificial intelligence, machine learning, big data analytics, and intelligent cloud systems.",
+    "careers": ["AI Engineer", "Data Engineer", "Machine Learning Specialist", "Data Analyst"],
     "modules_yr2": ["Machine Learning & Deep Learning", "Data Engineering Pipelines", "Applied AI Systems", "Cloud Application Development"],
     "source_url": "https://www.nyp.edu.sg/student/study/schools/engineering/diploma-AI-data-engineering"
+  },
+  "C33": {
+    "name": "Diploma in Aeronautical & Aerospace Technology",
+    "cop": "12 - 18",
+    "description": "Covers aircraft structure, aerodynamics, jet engines, flight mechanics, and aviation maintenance practices.",
+    "careers": ["Aerospace Engineer", "Aircraft Maintenance Engineer", "Flight Test Specialist", "Quality Engineer"],
+    "modules_yr2": ["Aerodynamics & Propulsion", "Aircraft Structures & Materials", "Avionics & Flight Control", "Gas Turbine Engine Technology"],
+    "source_url": "https://www.nyp.edu.sg/student/study/schools/engineering/diploma-aeronautical-aerospace-technology"
+  },
+  "C35": {
+    "name": "Common Engineering Programme",
+    "cop": "11 - 22",
+    "description": "A foundational first-year program allowing students to explore various engineering disciplines before choosing a specific diploma.",
+    "careers": ["Exploratory Engineering Track (leads to all SEG Diplomas)"],
+    "modules_yr2": ["Specialization selection takes place in Year 1 Semester 2"],
+    "source_url": "https://www.nyp.edu.sg/student/study/schools/engineering/common-engineering-programme"
   },
   "C36": {
     "name": "Diploma in Computer Engineering",
     "cop": "7 - 14",
-    "description": "Combines software engineering with hardware systems, IoT devices, and cyber-physical security.",
-    "careers": ["Embedded Systems Engineer", "IoT Developer", "Software Engineer"],
-    "modules_yr2": ["Embedded Linux Systems", "Microcontroller Architecture", "Network Security"],
+    "description": "Combines software engineering with hardware systems, microcontrollers, IoT devices, and cyber-physical security.",
+    "careers": ["Embedded Systems Engineer", "IoT Developer", "Software Engineer", "Systems Integrator"],
+    "modules_yr2": ["Embedded Linux Systems", "Microcontroller Architecture", "Network & Internet Security", "Object-Oriented Programming"],
     "source_url": "https://www.nyp.edu.sg/student/study/schools/engineering/diploma-computer-engineering"
+  },
+  "C42": {
+    "name": "Diploma in Engineering with Business",
+    "cop": "10 - 16",
+    "description": "Blends technical engineering competencies with business management, techno-entrepreneurship, and product innovation.",
+    "careers": ["Engineering Business Analyst", "Technical Project Manager", "Product Specialist", "Operations Manager"],
+    "modules_yr2": ["Product Innovation & Marketing", "Engineering Economics", "Operations & Quality Management", "Prototyping & Design Thinking"],
+    "source_url": "https://www.nyp.edu.sg/student/study/schools/engineering/diploma-engineering-business"
+  },
+  "C52": {
+    "name": "Diploma in Aerospace Systems & Management",
+    "cop": "13 - 19",
+    "description": "Focuses on aerospace electronics (avionics), air traffic management, unmanned aerial vehicles (drones), and airport operations.",
+    "careers": ["Avionics Specialist", "Air Traffic Management Officer", "UAS Operations Executive", "Airport Operations Officer"],
+    "modules_yr2": ["Avionics Systems & Testing", "Air Traffic Control Systems", "Drone Operations & Technology", "Aviation Safety & Regulations"],
+    "source_url": "https://www.nyp.edu.sg/student/study/schools/engineering/diploma-aerospace-systems-management"
+  },
+  "C62": {
+    "name": "Diploma in Biomedical Engineering",
+    "cop": "10 - 15",
+    "description": "Integrates engineering principles with medical sciences to develop healthcare electronics, medical devices, and bio-instrumentation.",
+    "careers": ["Biomedical Service Engineer", "Medical Device Designer", "Regulatory Affairs Specialist", "Clinical Engineer"],
+    "modules_yr2": ["Medical Electronics & Instrumentation", "Anatomy & Physiology for Engineers", "Biomechanics & Biomaterials", "Medical Imaging Systems"],
+    "source_url": "https://www.nyp.edu.sg/student/study/schools/engineering/diploma-biomedical-engineering"
+  },
+  "C85": {
+    "name": "Diploma in Advanced & Digital Manufacturing",
+    "cop": "14 - 26",
+    "description": "Focuses on Industry 4.0 smart factory solutions, 3D printing/additive manufacturing, digital twin simulation, and industrial automation.",
+    "careers": ["Smart Factory Specialist", "Additive Manufacturing Engineer", "CAD/CAM Engineer", "Process Engineer"],
+    "modules_yr2": ["Additive Manufacturing Technology", "Digital Twin & Simulation", "Industrial Robotics", "Smart Supply Chain Automation"],
+    "source_url": "https://www.nyp.edu.sg/student/study/schools/engineering/diploma-advanced-digital-manufacturing"
   },
   "C87": {
     "name": "Diploma in Robotics & Mechatronics",
     "cop": "11 - 18",
-    "description": "Integrates mechanical engineering, electronics, autonomous systems, and smart factory automation.",
-    "careers": ["Robotics Engineer", "Automation Specialist", "Control Systems Developer"],
-    "modules_yr2": ["Robotic Control Systems", "Industrial Automation & PLC", "3D CAD & Mechanical Design"],
+    "description": "Integrates mechanical engineering, electronics, autonomous systems, sensors, and programmable logic controllers (PLCs).",
+    "careers": ["Robotics Engineer", "Automation Specialist", "Control Systems Developer", "Mechatronics Technician"],
+    "modules_yr2": ["Robotic Control Systems", "Industrial Automation & PLC", "Sensors & Actuators", "3D CAD & Mechanical Design"],
     "source_url": "https://www.nyp.edu.sg/student/study/schools/engineering/diploma-robotics-mechatronics"
   }
-}
